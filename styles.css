@@ -1,19 +1,20 @@
-body{
-  margin: 0;
-  width: 90%;
-  background: #ffffff;
-  font-family: Oswald;
-  font-weight: 300;
+.navbar-brand{
+  color: rgb(242, 14, 166);
 }
 
-.container{
-  width: 90%;
-  margin: 0 auto;
+.jumbotron{
+background-color: blueviolet;
+background-repeat: no-repeat;
+background-size: auto 0;
 }
 
-header{
-  background: #081B57;
-  height: 60px;
+.card-body{
+  stroke-width: 0;
+}
+
+.footer{
+  float: right;
+  background-color: aquamarine;
 }
 
 .logo{
@@ -23,72 +24,11 @@ header{
   align-items: center;
 }
 
-nav{
-  float: right;
-}
-
-nav ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li{
-  display: inline-block;
-  margin-left: 30px;
-  padding-top: 25px;
-  position: relative;
-}
-
-nav a{
-  color:aliceblue;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-nav a:hover{
-  color: rgb(117, 223, 247);
-}
-
-nav a::before{
-  content: '';
-  display: block;
-  height: 5px;
-  background-color: whitesmoke;
-  position:absolute;
-  top:0;
-  width: 0%;
-  transition: all ease-in-out 250ms;
-}
-
-nav a:hover::before{
-  width: 100%;
-}
-
-.flexbox-container{
-display: flex;
-align-items: center;
-background-image: url(./photos/mountainFade2.png);
-background-size: cover;
-}
-
-.flexbox-item{
-  margin: 10px;
-}
-
-.flexbox-about-me{
-  width: 700px;
-}
-.flexbox-alex-photo{
-float:right;
-}
-h2{
+p{
+  font-family: neucha;
   font-size: 14pt;
-  font-family: Oswald;
-  font-weight: 600;
-  margin-bottom: -15px;
-  padding-left: 10px;
+  padding: 10px;
+  margin-bottom: -20pt;
 }
 
 h1{
@@ -100,40 +40,17 @@ h1{
   margin-bottom: -30px;
   margin-left: 10px;
 }
+
+h2{
+  font-size: 14pt;
+  font-family: Oswald;
+  font-weight: 600;
+  margin-bottom: -15px;
+  padding-left: 10px;
+}
+
 h5{
   color:aliceblue;
 }
 
-p{
-  font-family: neucha;
-  font-size: 14pt;
-  padding: 10px;
-  margin-bottom: -20pt;
-}
 
-.flexbox-container2{
-  display: flex;
-  background-image: url(./photos/mountainFade1.png);
-  background-size: cover;}
-
-.flexbox-container3{
-  display: flex;
-  background-image: url(./photos/mountainFade2.png);
-  background-size: cover;}
-
-.flexbox-container4{
-  display: flex;
-  background-image: url(./photos/mountainFade1.png);
-  background-size: cover;}
-
-.flexbox-container5{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color:#ffffff;
-  margin-top: 60px;
-  width: 100%;
-  height: 75px;
-  background-color: #081B57;
-  }
