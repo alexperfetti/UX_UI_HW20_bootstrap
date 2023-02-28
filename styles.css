@@ -61,4 +61,7 @@ h5{
   color:aliceblue;
 }
 
-
+.card{
+  padding: 10px;
+  margin: 10px;
+}
